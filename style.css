@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans:ital,wght@0,400;1,300;1,500&family=Josefin+Slab&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Outfit:wght@400;600;700&family=Red+Hat+Display:wght@900&family=Rowdies&family=Satisfy&family=Seymour+One&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Bakbak+One&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans:ital,wght@0,400;1,300;1,500&family=Josefin+Slab&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Lobster&family=Lora:wght@700&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Outfit:wght@400;600;700&family=Red+Hat+Display:wght@500;900&family=Rowdies&family=Satisfy&family=Seymour+One&family=Space+Grotesk:wght@300&display=swap');
+
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:98vh;
+    background-image:url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:2000px;
+}
+.content1,.content2,.content3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:500;
+    line-height:10px;
+    color: hsl(224, 23%, 55%);
+    font-size:16px;
+    
+}
+.content3{
+    padding-bottom:20px;
+}
+.plan-content{
+    margin-top:-60px;
+    margin-left:-80px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:500;
+    
+}
+html,body{
+    overflow-x: hidden;
+    max-width:100%;
+}
+.price-content{
+    margin-top:-16px;
+    margin-left:-80px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:500;
+    color:hsl(224, 23%, 55%);
+}
+.change{
+    margin-top:-50px;
+    margin-left:210px;
+    
+    
+}
+a{
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:500;
+
+}
+a:hover{
+    color:  blue;
+    transition:.5s;
+}
+.btn{
+    margin-top:50px;
+}
+.btn button{
+     padding-top:15px;
+     padding-bottom:15px;
+     padding-left:100px;
+     padding-right:100px;
+     border-top-width:0px;
+     border-bottom-width:0px;
+     border-left-width:0px;
+     border-right-width:0px;
+     background-color:hsl(245, 75%, 52%);
+     color: white;
+     border-radius:10px;
+     font-family: 'Red Hat Display', sans-serif;
+     font-weight:500;
+}
+.btn{
+    padding-bottom:10px;
+}
+.roll2{
+    background-color:white;
+    width:400px;
+    text-align: center;
+    padding-top:25px;
+    margin:auto;
+    margin-top:-10px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    box-shadow:5px 5px 50px 1px lightgrey;
+
+
+}
+.wrapper{
+    text-align: center;
+    margin-top:50px;
+
+}
+.logo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size:900;
+}
+.music-img {
+    margin-left:-250px;
+}
+.music-img img{
+    height:40px;
+}
+.roll{
+  padding-top:25px;
+  background-color:hsl(225, 100%, 98%);
+  height:45px;
+  margin-left:40px;
+  margin-right:40px;
+  border-radius:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.main-img img{
+     width:400px;
+     border-top-left-radius:20px ;
+     border-top-right-radius:20px ;
+}    
+.cancel{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:500;
+    padding-bottom:20px;
+    color:hsl(223, 47%, 23%);
+}
+.cancel:hover{
+    color: black;
+    transition:.5s;
+}
+.btn button:hover{
+    background-color:  hsl(223, 47%, 23%);
+    transition:.5s;
+}
+@media (max-width:1500px) {
+    body{
+        background-size:1500px
+    }
+}
+@media (max-width:1000px) {
+    body{
+        background-size:1300px
+    }
+}
+@media (max-width:800px) {
+    body{
+        background-size:1200px
+    }
+}
+@media (max-width:600px) {
+    body{
+        background-size:1100px
+    }
+}
+@media (max-width:500px) {
+    body{
+     background-image: none;
+     background-image:url(pattern-background-mobile.svg);
+     background-repeat:no-repeat;
+     background-size:800px;
+    }
+    .main-img img{
+        width:300px;
+    }
+    .logo{
+        font-size:13px;
+    }
+    .content1,.content2,.content3{
+        font-size:13px;
+    }
+    .plan-content{
+        font-size:11px;
+        margin-top:-45px;
+        margin-left:-60px;
+    }
+    .price-content{
+        font-size:11px;
+        margin-top:-13px;
+        margin-left:-60px;
+    }
+    .music-img img{
+        height:30px;
+
+    }
+    .music-img{
+        margin-left:-170px;
+        margin-top:8px;
+    }
+    .change{
+        font-size:11px;
+        margin-top:-1px;
+        margin-top:-35px;
+        margin-left:150px;
+    }
+    .roll{
+        margin-left:35px;
+        margin-right:35px;
+    }
+    .btn button{
+        padding-left:50px;
+        padding-right:50px;
+    }
+    .btn{
+        margin-top:30px;
+    }
+    .roll2{
+        width:300px;
+    }
+}
+@media (max-width:350px) {
+    .main-img img{
+        width:250px;
+    }
+    .logo{
+        font-size:11px;
+    }
+    .content1,.content2,.content3{
+        font-size:11px;
+    }
+    .plan-content{
+        font-size:9px;
+        margin-left:-40px;
+    }
+    .price-content{
+        font-size:9px;
+        margin-top:-7px;
+        margin-left:-40px;
+    }
+    .change{
+        font-size:9px;
+        margin-top:-30px;
+        margin-left:130px;
+    }
+    .music-img{
+        margin-left:-140px;
+    }
+    .roll{
+        margin-left:25px;
+        margin-right:25px;
+    }
+    .btn button{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .roll2{
+        width:250px;
+    }
+    .cancel{
+        font-size:13px;
+    }
+}
