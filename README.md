@@ -30,7 +30,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 
 ## Author<br>
-- Frontend Mentor - [@oxabdul](https://www.frontendmentor.io/profile/0xAbdul)<br.
+- Frontend Mentor - [@oxabdul](https://www.frontendmentor.io/profile/0xAbdul)<br>
 
 
 
